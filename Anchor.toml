@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.devnet]
+nft_swipe = "8bAruRoBimPdwf1buia9EdTcBhxrL2nyzSQkTtkiKQAq"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/syedzubairahmed/.config/solana/id.json"
+
+[scripts]
+test = "node tests/nft-swipe.js"
+
